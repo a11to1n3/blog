@@ -1,1 +1,1 @@
-Sitemap: https://a11to1n3.github.io/dap.github.io/sitemap.xml
+Sitemap: https://a11to1n3.github.io/blog/sitemap.xml
