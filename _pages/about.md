@@ -12,6 +12,8 @@ My education in data and engineering alongside my related experience is substant
 
 Colleagues and professors describe me as a progressive, driven, down-to-earth, detailed, and analytical expert who can be relied on to offer superior solutions that deliver valuable results efficiently and effectively.
 
-I am pursuing new opportunities for a PhD position in Machine Learning and can be reached through this profile: https://www.linkedin.com/in/duypham1613/
+I am pursuing new opportunities for a PhD position in Machine Learning and can be reached through [this profile][1] 
+
+[1]: https://www.linkedin.com/in/duypham1613/
 
 This website is powered by **[fastpages](https://github.com/fastai/fastpages)** 
