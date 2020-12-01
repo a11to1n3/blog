@@ -127,5 +127,3 @@ print(intro) # My name is DAP
 That pretty much concludes my point of view about how miracle a python string could be.
 
 Enjoy coding!
-#Blog
-#Blog/PythonString
