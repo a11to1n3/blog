@@ -34,15 +34,15 @@ print(name[-3:]) # DAP
 
 # Traversing
 for character in name:
-	if character == 'D':
-		print(character) # D
+  if character == 'D':
+	  print(character) # D
 ```
 ### Check substring
 ```python
 name = 'My name is DAP'
 search_term = 'DAP'
 if search_term in name:
-	print('Your name is correct')
+  print('Your name is correct')
 ```
 
 ## Python strings support wonderful methods
@@ -82,11 +82,11 @@ In some cases, you would like to check whether your string (could be a filename)
 filename = 'Apple.avi'
 # Search for an Apple movie
 if filename.startswith('Apple'):
-	print(filename)
+  print(filename)
 
 # Search for a movie extension  (.avi), not an image extension (.jpg)
 if filename.endswith('.avi'):
-	print(filename)
+  print(filename)
 ```
 
 ## Modern printing approach with variables
@@ -109,7 +109,7 @@ name = 'DAP'
 intro = f'My name is {name}'
 print(intro) # My name is DAP
 ```
-### How string format differs from F string?
+### How string format differs from f string?
 Well, essentially you can notice that although f strings are pretty dynamic with movable variable right inside its body, still one must call the variable name in the parentheses. That’s where string format methods come into place. With such method, coders can just leave a blank in a string and filling in it later.
 ```python
 name = 'DAP'
