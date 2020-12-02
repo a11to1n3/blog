@@ -112,7 +112,7 @@ window.onload = wrap_img;
 <li class="toc-entry toc-h2"><a href="#modern-printing-approach-with-variables">Modern printing approach with variables</a>
 <ul>
 <li class="toc-entry toc-h3"><a href="#what-is-f-string">What is f string?</a></li>
-<li class="toc-entry toc-h3"><a href="#how-string-format-differs-from-f-string">How string format differs from F string?</a></li>
+<li class="toc-entry toc-h3"><a href="#how-string-format-differs-from-f-string">How string format differs from f string?</a></li>
 </ul>
 </li>
 </ul><h2 id="intro">
@@ -145,15 +145,15 @@ window.onload = wrap_img;
 </span>
 <span class="c1"># Traversing
 </span><span class="k">for</span> <span class="n">character</span> <span class="ow">in</span> <span class="n">name</span><span class="p">:</span>
-	<span class="k">if</span> <span class="n">character</span> <span class="o">==</span> <span class="s">'D'</span><span class="p">:</span>
-		<span class="k">print</span><span class="p">(</span><span class="n">character</span><span class="p">)</span> <span class="c1"># D
+  <span class="k">if</span> <span class="n">character</span> <span class="o">==</span> <span class="s">'D'</span><span class="p">:</span>
+	  <span class="k">print</span><span class="p">(</span><span class="n">character</span><span class="p">)</span> <span class="c1"># D
 </span></code></pre></div></div>
 <h3 id="check-substring">
 <a class="anchor" href="#check-substring" aria-hidden="true"><span class="octicon octicon-link"></span></a>Check substring</h3>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">name</span> <span class="o">=</span> <span class="s">'My name is DAP'</span>
 <span class="n">search_term</span> <span class="o">=</span> <span class="s">'DAP'</span>
 <span class="k">if</span> <span class="n">search_term</span> <span class="ow">in</span> <span class="n">name</span><span class="p">:</span>
-	<span class="k">print</span><span class="p">(</span><span class="s">'Your name is correct'</span><span class="p">)</span>
+  <span class="k">print</span><span class="p">(</span><span class="s">'Your name is correct'</span><span class="p">)</span>
 </code></pre></div></div>
 
 <h2 id="python-strings-support-wonderful-methods">
@@ -193,11 +193,11 @@ window.onload = wrap_img;
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">filename</span> <span class="o">=</span> <span class="s">'Apple.avi'</span>
 <span class="c1"># Search for an Apple movie
 </span><span class="k">if</span> <span class="n">filename</span><span class="p">.</span><span class="n">startswith</span><span class="p">(</span><span class="s">'Apple'</span><span class="p">):</span>
-	<span class="k">print</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
 
 <span class="c1"># Search for a movie extension  (.avi), not an image extension (.jpg)
 </span><span class="k">if</span> <span class="n">filename</span><span class="p">.</span><span class="n">endswith</span><span class="p">(</span><span class="s">'.avi'</span><span class="p">):</span>
-	<span class="k">print</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+  <span class="k">print</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
 </code></pre></div></div>
 
 <h2 id="modern-printing-approach-with-variables">
@@ -220,7 +220,7 @@ window.onload = wrap_img;
 <span class="k">print</span><span class="p">(</span><span class="n">intro</span><span class="p">)</span> <span class="c1"># My name is DAP
 </span></code></pre></div></div>
 <h3 id="how-string-format-differs-from-f-string">
-<a class="anchor" href="#how-string-format-differs-from-f-string" aria-hidden="true"><span class="octicon octicon-link"></span></a>How string format differs from F string?</h3>
+<a class="anchor" href="#how-string-format-differs-from-f-string" aria-hidden="true"><span class="octicon octicon-link"></span></a>How string format differs from f string?</h3>
 <p>Well, essentially you can notice that although f strings are pretty dynamic with movable variable right inside its body, still one must call the variable name in the parentheses. That’s where string format methods come into place. With such method, coders can just leave a blank in a string and filling in it later.</p>
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">name</span> <span class="o">=</span> <span class="s">'DAP'</span>
 <span class="n">intro</span> <span class="o">=</span> <span class="s">'My name is {}'</span><span class="p">.</span><span class="nb">format</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
